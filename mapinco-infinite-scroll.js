@@ -4,7 +4,8 @@ jQuery(function($) {
 				 container: mapinscroll.container,
 				 item: mapinscroll.item,
 				 pagination: mapinscroll.pagination,
-				 next:	mapinscroll.next
+				 next:	mapinscroll.next,
+				 negativeMargin:	mapinscroll.negativeMargin
 			};	
 		var ias = $.ias(iasOptions);
 	 	ias.extension(new IASTriggerExtension({

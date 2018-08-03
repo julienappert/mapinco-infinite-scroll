@@ -18,6 +18,7 @@ function my_theme_mapinscroll_options($options, $context){
 Deux contextes sont possibles : "archive" ou "single".
 Le tableau d'options par défaut :
 		array(
+			'negativeMargin'	=>	10,
 			'spinner'	=>	'<div class="ias-spinner" style="text-align: center;"><img src="{src}"/></div>',
 			'container'	=> "#content",
 			'item'	=> ".post",
